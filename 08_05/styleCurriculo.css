@@ -1,0 +1,27 @@
+main{
+    margin: 0 25%;
+}
+.curriculo{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    height: 95vh;
+    column-gap: calc(25% - (228px + 70px));
+}
+.curriculo .header{
+    padding: 0 70px;
+    border-right: 1px solid black;
+}
+section > img{
+    margin: 80px 20px;
+    width: 526px;
+    border-radius: 100%;
+    border: 1px solid gray;
+}
+li > a{
+    text-decoration: none;
+}
+li > a:visited{
+    color: blue;
+}
