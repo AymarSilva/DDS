@@ -1,0 +1,33 @@
+#cur-main{
+    border: 2px solid black;
+    margin: 6% 35%;
+    display: flex;
+    flex-direction: column;
+    width: 550px;
+}
+#cur-main > hr{
+    width: 98%;
+}
+#cur-main > div{
+    margin-left: 18px;
+}
+#cur-main > .nome{
+    display: flex;
+    align-items: center;
+}
+#cur-main .pessoal, #cur-main .formacao{
+    display: flex;
+    flex-direction: column;
+    row-gap: 4px;
+    margin-bottom: 20px;
+}
+footer{
+    margin: 18px;
+    padding-left: 4px;
+}
+#cur-main .nome > h1{
+    width: 100%;
+}
+#cur-main .pessoal > h4{
+    width: 100%;
+}

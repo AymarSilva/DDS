@@ -1,0 +1,11 @@
+section{
+    display: flex;
+    flex-direction: column;
+    row-gap: 14px;
+}
+th, td {
+    text-align: center;
+}
+.tableUm div{
+    width: 100%;
+}
